@@ -15,7 +15,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http:eureka6001:6001/eureka/
+      defaultZone: http://eureka6001:6001/eureka/
   server:
     enable-self-preservation: false
 ---
@@ -32,6 +32,6 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http:eureka6001:6001/eureka/
+      defaultZone: http://eureka6001:6001/eureka/
   server:
     enable-self-preservation: true
